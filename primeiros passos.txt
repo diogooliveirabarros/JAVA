@@ -1,0 +1,19 @@
+1-Baixar e instalar o VX CODE 
+
+2-Baixar e instalar o JDK JAVA 
+Link: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbm9rLWxQZ19QZzczNTNVT0pTSUVQSjJFQ1BYd3xBQ3Jtc0trMDdmNk9OeXdYbXhMbkxSSUxaTmhzRzdGcldESWdaOERZYVRSWVNNWllSNENDdVBCSzhKRTZOZzVaU1VabjRqODVIYVYyaVhXTVNubXdGQ1p3NUM2UGIxb3lhbnNoM2tmUm9lRGZTbUR5VWY3VWN1VQ&q=https%3A%2F%2Fwww.oracle.com%2Fbr%2Fjava%2Ftechnologies%2Fjavase-jdk11-downloads.html&v=xUCGahzEM84
+
+3-Verificar pelo cmd se localiza o java e o javac
+Se não localizar precisa incluir nas variáveis do windows, em Path e depois adicionar onde se encontra o JDK -> BIN
+
+4-Instalar extensão no VS CODE do JAVA que é da Microsoft, depois disso aperta Ctrl+Shift+P e digita create project java,
+seleciona a pasta e dá um nome ao projeto.
+
+5-Para melhor visualização de código instalar o DRACULA ou OMNI, instalei o OMNI.
+
+6-Instalar plugin do JAVA IDE para facilitar a criação de código.
+
+7-Ir até extensões em Debugger for Java e na engranagem 'Configurações' e 'Configurações de Extensão', e mudar para
+'Internat Console'
+
+8-Todo código executado aparecerá no 'Console de Depuração' de uma forma mais simples
