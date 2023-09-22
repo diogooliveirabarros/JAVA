@@ -1,0 +1,4 @@
+E -> Encapsulamento (Você criar um padrão de código, segue um contrato e padrão na criação de uma classe, protege o código do programador, evita que o programador faça besteira)
+H -> Herança (Você cria classes que herdam informações de outras classes, vai ter uma herança de informações)
+P -> Polimorfismo ('Poli' muitas, 'morfismo' formas, muitas formas, é quando um objeto pode se comportar de formas diferentes pra uma determinada ação)
+A -> Abstração (Você pegar informações que são relevantes para o seu projeto, exemplo: nome, idade)
