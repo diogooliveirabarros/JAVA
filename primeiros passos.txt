@@ -17,3 +17,5 @@ seleciona a pasta e dá um nome ao projeto.
 'Internat Console'
 
 8-Todo código executado aparecerá no 'Console de Depuração' de uma forma mais simples
+
+9-Extensão 'Material Icon Theme' deixa o desenho das pastas bonitinho no VS CODE
