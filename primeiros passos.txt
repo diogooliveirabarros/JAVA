@@ -21,3 +21,5 @@ seleciona a pasta e dá um nome ao projeto.
 8-Todo código executado aparecerá no 'Console de Depuração' de uma forma mais simples
 
 9-Extensão 'Material Icon Theme' deixa o desenho das pastas bonitinho no VS CODE
+
+10-Extensão 'Extension Pack for Java' cria facilmente os métodos GET e SET
