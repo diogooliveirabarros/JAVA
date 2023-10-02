@@ -1,5 +1,6 @@
 import telefone.Contato;
 import telefone.Contatos;
+import telefone.Ligacao;
 import telefone.Telefone;
 
 public class App {
@@ -20,5 +21,9 @@ public class App {
 
         System.out.println("Contatos filtrados:");
         System.out.println(telefoneContatos.buscar("l"));
+
+        Ligacao ligacao = new Ligacao("123", "456");
+        ligacao.ligar();
+        System.out.println(ligacao);
     }
 }
