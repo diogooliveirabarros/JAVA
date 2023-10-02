@@ -9,9 +9,14 @@ public class Ligacao {
     private String numeroDestino;
     private String horarioLigacao;
 
-    public Ligacao(String numero, String numeroDestino) {
-        this.numero = numero;
+    public Ligacao(String numeroOrigem, String numeroDestino) {
+        this.numeroOrigem = numeroOrigem;
         this.numeroDestino = numeroDestino;
+    }
+
+    public Ligacao(Contato contatoOrigem, Contato contatoDestino) {
+        this.numeroOrigem = contatoOrigem.getNumero();
+        this.numeroDestino = contatoDestino.getNumero();
     }
 
     public void ligar(){
@@ -20,7 +25,7 @@ public class Ligacao {
         System.out.println("O número está ocupado");
         // dia/mês/ano horas:minutos:ss
         // dd/MM/YYYY HH:mm:ss
-        DateTimeFormatter formatadorData = DateTimeFormatter.ofPattern("");
+        DateTimeFormatter formatadorData = DateTimeFormatter.ofPattern("dd/MM/YYYY HH:mm:ss");
         LocalDateTime horarioAgora = LocalDateTime.now();
         horarioLigacao = formatadorData.format(horarioAgora);
     }

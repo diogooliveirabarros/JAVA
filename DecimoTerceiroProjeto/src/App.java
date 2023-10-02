@@ -22,8 +22,10 @@ public class App {
         System.out.println("Contatos filtrados:");
         System.out.println(telefoneContatos.buscar("l"));
 
-        Ligacao ligacao = new Ligacao("123", "456");
-        ligacao.ligar();
-        System.out.println(ligacao);
+        telefone.ligar(contatoA);
+        telefone.ligar(contatoB);
+        telefone.ligar(contatoC);
+        telefone.ligar(contatoD);
+        System.out.println(telefone.getChamadas());
     }
 }
