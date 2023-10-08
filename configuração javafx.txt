@@ -1,0 +1,8 @@
+1- Baixar o JAVAFX e descompactar a pasta dentro do meu projeto (o nome da pasta é javafx-sdk-21)
+
+2- No VS CODE ir até a guia 'JAVA PROJECTS' e 'Referenced Libraries' e clica no +
+Vai até a pasta descompactada na pasta 'lib' e seleciona todas para importação das bibliotecas no VS CODE
+
+3- Instalar extensão JAVAFX no VS CODE
+
+4- Baixa e instala o 'scene builder'
