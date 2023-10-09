@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "JavaFX_12cf882d"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -16,7 +23,7 @@
             "request": "launch",
             "mainClass": "App",
             "projectName": "JavaFX_744ac6ff",
-            "vmArgs": "--module-path \"C:/Users/diogo/OneDrive/Documentos/GitHub/Java/Java/JavaFX/javafx-sdk-21/lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \"C:/Users/diogo/Documents/GitHub/Java/Java/JavaFX/javafx-sdk-21/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
